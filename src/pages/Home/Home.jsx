@@ -8,7 +8,7 @@ function Home() {
       {/* /* Hero Section */ }
       <section className="hero">
         <div className="overlay">
-          <h1>Welcome to New Arc Hotel</h1>
+          <h1>Welcome to Arc Hotel</h1>
           <p>Your comfort is our priority — stay in style & luxury.</p>
           <a href="/bookingform"><button className="btn-book">Book Your Stay</button></a>
         </div>
