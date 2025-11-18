@@ -1,0 +1,45 @@
+.services {
+  background-color: #000; 
+  color: #FFD700; 
+  padding: 50px 20px;
+}
+
+.services h2 {
+  font-size: 36px;
+  margin-bottom: 40px;
+}
+
+.service-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+.service-card {
+  background-color: #111;
+  border: 1px solid #FFD700;
+  border-radius: 10px;
+  padding: 20px;
+  width: 220px;
+  transition: transform 0.3s, background-color 0.3s;
+}
+
+.service-card:hover {
+  background-color: #222;
+  transform: scale(1.05);
+}
+
+.service-icon {
+  font-size: 40px;
+  margin-bottom: 15px;
+}
+
+.service-card h3 {
+  margin: 10px 0;
+  font-size: 20px;
+}
+
+.service-card p {
+  font-size: 14px;
+}

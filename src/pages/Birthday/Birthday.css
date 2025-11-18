@@ -1,0 +1,56 @@
+.birthday-container {
+  text-align: center;
+  padding: 50px 20px;
+  background-color: #fff7e6;
+}
+
+.birthday-container h1 {
+  font-size: 2.5rem;
+  color: #d35400;
+  margin-bottom: 10px;
+}
+
+.birthday-intro {
+  font-size: 1.1rem;
+  color: #555;
+  max-width: 700px;
+  margin: 0 auto 40px;
+}
+
+.birthday-boxes {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 25px;
+}
+
+.birthday-box {
+  background: #ffffff;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  padding: 20px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.birthday-box:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+.birthday-box img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 12px;
+  margin-bottom: 15px;
+}
+
+.birthday-box h2 {
+  font-size: 1.3rem;
+  color: #e67e22;
+  margin-bottom: 10px;
+}
+
+.birthday-box p {
+  color: #666;
+  font-size: 0.95rem;
+}

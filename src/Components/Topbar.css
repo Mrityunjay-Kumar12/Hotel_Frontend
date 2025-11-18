@@ -1,0 +1,39 @@
+.topbar {
+  background-color: #111;
+  color: #f5c518;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 6px 60px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 0.9rem;
+  border-bottom: 1px solid #f5c518;
+}
+
+.topbar-left p {
+  margin: 0;
+}
+
+.topbar-right a {
+  color: #f5c518;
+  margin-left: 15px;
+  font-size: 1.1rem;
+  transition: color 0.3s;
+}
+
+.topbar-right a:hover {
+  color: #fff;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .topbar {
+    flex-direction: column;
+    text-align: center;
+    padding: 8px 20px;
+  }
+
+  .topbar-right {
+    margin-top: 5px;
+  }
+}

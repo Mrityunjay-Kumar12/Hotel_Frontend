@@ -1,0 +1,40 @@
+.add-rooms-container {
+  max-width: 800px;
+  margin: 30px auto;
+  background: #111;
+  color: #fff;
+  padding: 20px;
+  border-radius: 12px;
+}
+
+.add-rooms-container input,
+.add-rooms-container textarea {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 8px;
+  border-radius: 8px;
+  border: none;
+}
+
+.add-rooms-container button {
+  background: #ffcc00;
+  color: #000;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.add-rooms-container table {
+  width: 100%;
+  margin-top: 20px;
+  border-collapse: collapse;
+}
+
+.add-rooms-container th,
+.add-rooms-container td {
+  border: 1px solid #444;
+  padding: 8px;
+  text-align: center;
+}

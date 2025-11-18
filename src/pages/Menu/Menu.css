@@ -1,0 +1,90 @@
+.menu-container {
+  padding: 60px 20px;
+  background: #000;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+}
+
+.menu-title {
+  font-size: 3rem;
+  color: #f5c518;
+  margin-bottom: 10px;
+}
+
+.menu-intro {
+  color: #fff;
+  max-width: 700px;
+  margin: 0 auto 50px;
+  line-height: 1.6;
+}
+
+.menu-section {
+  margin-bottom: 60px;
+}
+
+.menu-section h2 {
+  font-size: 2rem;
+  color: #f5c518;
+  margin-bottom: 25px;
+  border-bottom: 3px solid #fff;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+.menu-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px;
+  margin-top: 25px;
+}
+
+.menu-item {
+  background: #fff;
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 4px 15px #f5c518;
+  width: 280px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.menu-item:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 8px 25px #f5c518;
+}
+
+.menu-item img {
+  width: 100%;
+  height: 190px;
+  object-fit: cover;
+}
+
+.menu-details {
+  padding: 15px;
+  text-align: left;
+}
+
+.menu-details h3 {
+  color: #f5c518;
+  margin: 5px 0;
+  font-size: 1.3rem;
+}
+
+.menu-details p {
+  color: #000;
+  font-size: 0.95rem;
+  margin-bottom: 10px;
+}
+
+.price {
+  display: inline-block;
+  background: #000;
+  color: #f5c518;
+  padding: 6px 12px;
+  border-radius: 12px;
+  font-weight: 600;
+  font-size: 0.95rem;
+}
+.pay{
+  margin-left: 90px;
+}

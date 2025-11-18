@@ -1,0 +1,56 @@
+.wedding-container {
+  text-align: center;
+  padding: 50px 20px;
+  background-color: #fef6f6;
+}
+
+.wedding-container h1 {
+  font-size: 2.5rem;
+  color: #b30059;
+  margin-bottom: 10px;
+}
+
+.wedding-intro {
+  font-size: 1.1rem;
+  color: #555;
+  max-width: 700px;
+  margin: 0 auto 40px;
+}
+
+.wedding-boxes {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 25px;
+}
+
+.wedding-box {
+  background: #ffffff;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  padding: 20px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.wedding-box:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+.wedding-box img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 12px;
+  margin-bottom: 15px;
+}
+
+.wedding-box h2 {
+  font-size: 1.3rem;
+  color: #e91e63;
+  margin-bottom: 10px;
+}
+
+.wedding-box p {
+  color: #666;
+  font-size: 0.95rem;
+}

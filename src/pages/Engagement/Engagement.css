@@ -1,0 +1,56 @@
+.engagement-container {
+  text-align: center;
+  padding: 50px 20px;
+  background-color: #fff0f5;
+}
+
+.engagement-container h1 {
+  font-size: 2.5rem;
+  color: #b30059;
+  margin-bottom: 10px;
+}
+
+.engagement-intro {
+  font-size: 1.1rem;
+  color: #555;
+  max-width: 700px;
+  margin: 0 auto 40px;
+}
+
+.engagement-boxes {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 25px;
+}
+
+.engagement-box {
+  background: #ffffff;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  padding: 20px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.engagement-box:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+.engagement-box img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 12px;
+  margin-bottom: 15px;
+}
+
+.engagement-box h2 {
+  font-size: 1.3rem;
+  color: #d63384;
+  margin-bottom: 10px;
+}
+
+.engagement-box p {
+  color: #666;
+  font-size: 0.95rem;
+}
