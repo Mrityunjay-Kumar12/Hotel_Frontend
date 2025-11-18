@@ -1,72 +1,45 @@
-.navbar {
-  background-color: #000;
-  color: #f5c518;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 18px 20px;
-  position: sticky;
-  top: 0;
-  z-index: 1000;
-  border-bottom: 2px solid #f5c518;
+/* Background color */
+.custom-nav {
+  background: black;
 }
 
-.logo h2 {
-  font-family: 'Poppins', sans-serif;
-  font-weight: 700;
-  font-size: 1.8rem;
-  color: #f5c518;
+/* Toggler Icon Orange */
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='white' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
 }
 
-.logo span {
-  color: #fff;
+.custom-toggler {
+  border-color: #fff;
 }
 
-.nav-links {
-  list-style: none;
-  display: flex;
-  gap: 30px;
+/* Orange Text */
+.text-orange {
+  color: #ff8c00;
 }
 
-.nav-links li a {
-  color: #f5c518;
-  text-decoration: none;
-  font-size: 1rem;
-  font-weight: 500;
-  transition: color 0.3s;
-}
-
-.nav-links li a:hover {
-  color: #fff;
-}
-
-.book-btn {
-  background-color: #f5c518;
-  color: #000;
+/* Buttons */
+.btn-orange {
+  background-color: #ff8c00;
+  color: white;
   border: none;
-  padding: 10px 22px;
-  border-radius: 25px;
-  font-weight: 600;
-  cursor: pointer;
-  transition: background 0.3s;
 }
 
-.book-btn:hover {
-  background-color: #fff;
-  color: #000;
+.btn-orange:hover {
+  background-color: #e67c00;
 }
 
-/* Responsive */
-@media (max-width: 768px) {
-  .nav-links {
-    display: none;
-  }
+.btn-yellow {
+  background-color: #ffcc00;
+  color: black;
+  border: none;
+}
 
-  .navbar {
-    padding: 15px 25px;
-  }
+.btn-yellow:hover {
+  background-color: #e6b800;
+}
 
-  .book-btn {
-    padding: 8px 16px;
-  }
+/* Menu links hover */
+.nav-link:hover {
+  color: #fff !important;
+  font-weight: bold;
 }
